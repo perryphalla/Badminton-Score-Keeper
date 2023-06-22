@@ -1,0 +1,128 @@
+body {
+    background-color: #9aad8e;
+}
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    color: #f5f1d7;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    color: #f5f1d7;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+h3 {
+    color: #f5f1d7;
+    padding-left: 20%;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: dotted ;
+    border-color: #f5f1d7;
+    border-width: 2px;
+}
+
+.score {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-left: 25px;
+    display: inline;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.badminton {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-color: #f5f1d7;
+    padding: 7px 7px 7px 7px;
+
+}
+
+.select {
+    background-color: #f5f1d7;
+    border-radius: 25px 25px;
+    border-style: none;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: dotted;
+    border-color: #f5f1d7;
+    border-width: 2px;
+    padding: 7px 7px 7px 7px;
+}
+
+#p1Button {
+    margin-right: 2%;
+    color: #f5f1d7;
+    background-color: #02451b;
+    border-radius: 25px 25px;
+    height: 50px;
+    border-style: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+
+}
+
+#p2Button {
+    margin-right: 2%;
+    color: #f5f1d7;
+    background-color: #02451b;
+    border-radius: 25px 25px;
+    height: 50px;
+    border-style: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+#reset {
+    color: #f5f1d7;;
+    background-color: #02451b;
+    border-radius: 25px 25px;
+    height: 50px;
+    
+    border-style: none;
+    background-color: #b37014;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+@media all and (max-width: 768px) {
+
+.container {
+    margin-left: -50%;
+    margin-right: -50%;
+}
+
+}
